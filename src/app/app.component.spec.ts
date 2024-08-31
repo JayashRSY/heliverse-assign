@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'Heliverse-assign'`, () => {
+  it(`should have as title 'heliverse-assign'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Heliverse-assign');
+    expect(app.title).toEqual('heliverse-assign');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('Heliverse-assign app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('heliverse-assign app is running!');
   });
 });

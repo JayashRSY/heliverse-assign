@@ -1,5 +1,18 @@
 # HeliverseAssign
 
+### About
+
+Show all the users in cards format with pagination (20 users/page)
+
+Functionalities:
+
+1. Search by Name
+2. Filter Domain, Gender and Availability ( all these filters work at the same time )
+3. Create a team by selecting users from unique domain ( only available )
+( This conceptm is similar to the cart in ecommerce websites)
+4. Show the team details once done
+5. Fully Responsive
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
 
 ## Development server
